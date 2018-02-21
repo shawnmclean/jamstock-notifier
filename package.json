@@ -1,0 +1,26 @@
+{
+  "name": "jamstock-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jamstock-notifier.js",
+  "scripts": {
+    "worker": "babel-node --presets es2015 jamstock-worker.js",
+    "client": "babel-node --presets es2015 jamstock-client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "htmlparser2": "^3.9.2",
+    "mongodb": "^3.0.2",
+    "request": "^2.83.0",
+    "webtask-tools": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
